@@ -6,3 +6,13 @@ _docker_connect() {
   docker exec -it $containerid bash
 }
 alias emoji-picker='. ~/rofi-emoji.sh'
+alias show-open-files="_show_open_files"
+_show_open_files() {
+  selected=$(ps axc | awk 'NR > 1' | awk '{print substr($0,index($0,$5))}' | sort -u | fzf)
+
+  if [ ! -z $1 ]; then
+    lsof -r 2 -c "$selected"
+  else
+    lsof -c "$selected"
+  fi
+}
