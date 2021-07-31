@@ -123,3 +123,5 @@ parse_git_branch() {
 export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
 
 . /usr/share/autojump/autojump.bash
+
+  export PATH="${PATH}:/home/adrian/.cargo/bin/navi"
