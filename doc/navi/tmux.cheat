@@ -1,0 +1,7 @@
+% tmux
+
+# split horizontally
+xdotool key ctrl+a && xdotool key shift+2
+
+#split vertically
+xdotool key ctrl+a && xdotool key shift+5
