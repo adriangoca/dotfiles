@@ -69,7 +69,6 @@ colord-data
 command-not-found
 console-setup
 console-setup-linux
-containerd.io
 coreutils
 cpio
 cpp
@@ -114,10 +113,6 @@ dmz-cursor-theme
 dns-root-data
 dnsmasq-base
 docbook-xml
-docker-ce
-docker-ce-cli
-docker-ce-rootless-extras
-docker-scan-plugin
 dosfstools
 dpkg
 dpkg-dev
@@ -1580,7 +1575,6 @@ shim-signed
 shotwell
 shotwell-common
 simple-scan
-slack-desktop
 slirp4netns
 snapd
 software-properties-common
